@@ -86,7 +86,7 @@ int main() {
       five_seconds = 0;
     }
 
-    asm("MOV r0, #0; MCR p15, 0, R0, c7, c0, 4");  // enter WFI mode
+    //asm("MOV r0, #0; MCR p15, 0, R0, c7, c0, 4");  // enter WFI mode
     printf("CPU come out WFI state (%d)\n", itr);
   }
 }
